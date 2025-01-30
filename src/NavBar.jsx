@@ -1,7 +1,15 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-export default function NavBar() {
+export const NavBar = ({ valor = 9999 }) => {
   return (
-    <div>Rutas</div>
+    <>
+      <h1>Navegando entre paginas</h1>
+      <p>{valor}</p>
+    </>
   )
+}
+
+NavBar.propTypes = {
+  valor: PropTypes.number
 }
