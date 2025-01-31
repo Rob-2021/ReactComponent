@@ -6,6 +6,8 @@ import { PropType } from './PropType'
 import { NavBar } from './NavBar'
 import './index.css'
 import { EventButton } from './EventButton'
+import { CountApp } from './CountApp'
+import { MostrarBotones } from './MostrarBotones'
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -26,6 +28,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
         {/* <PropType title={"Clase"}/> */}
         {/* <NavBar/> */}
-        <EventButton/>
+        {/* <EventButton/> */}
+
+        {/* <CountApp value={5}/> */}
+
+        <MostrarBotones/>
     </React.StrictMode>
 )
