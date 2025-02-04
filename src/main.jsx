@@ -8,6 +8,7 @@ import './index.css'
 import { EventButton } from './EventButton'
 import { CountApp } from './CountApp'
 import { MostrarBotones } from './MostrarBotones'
+import { CounterApp } from './01-hook-app/01-useState/CounterApp'
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -32,6 +33,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
         {/* <CountApp value={5}/> */}
 
-        <MostrarBotones/>
+        {/* <MostrarBotones/> */}
+
+        <CounterApp/>
     </React.StrictMode>
 )
