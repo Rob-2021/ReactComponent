@@ -10,6 +10,7 @@ import { CountApp } from './CountApp'
 import { MostrarBotones } from './MostrarBotones'
 import { CounterApp } from './01-hook-app/01-useState/CounterApp'
 import { CounterWithCustomHook } from './01-hook-app/01-useState/CounterWithCustom'
+import { MessageApp } from './01-hook-app/02-useEfect/MessageApp'
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -37,6 +38,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         {/* <MostrarBotones/> */}
 
         {/* <CounterApp/> */}
-        <CounterWithCustomHook/>
+        {/* <CounterWithCustomHook/> */}
+        <MessageApp/>
     </React.StrictMode>
 )
